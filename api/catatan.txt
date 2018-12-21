@@ -1,0 +1,13 @@
+#migration library sequelize-cli
+-buat file model di src
+-buat file index.js isinya copy aja samain
+-buat attribut untuk menentukan colum dengan perintah => sequelize model:generate --name product --attributes name:string,gambar:string,tanggal:date
+-run migration => sequelize db:migrate 
+
+
+
+#jalanin nodemon
+- install nodemon npm i --save nodemon
+- buat script untuk jalanin nodemon di package.json  "dev":"nodemon ."
+- titik adalah index
+- jalanin nodemon dengan npm run dev
